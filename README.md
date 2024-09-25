@@ -6,27 +6,26 @@ Electron + Vue3 + Vite + Typescript
 
 在编译前需要在 .npmrc（放置于个人文件夹根目录）中添加以下源变量
 
-```
+```config
 registry=https://registry.npmmirror.com
 ELECTRON_MIRROR=https://npmmirror.com/mirrors/electron/
 ```
 
-
 ## Scripts
 
-#### Build
+### Build
 
 ```shell
 yarn install
 ```
 
-#### Dev
+### Dev
 
 ```shell
 yarn start
 ```
 
-#### Make
+### Make
 
 ```shell
 yarn make
